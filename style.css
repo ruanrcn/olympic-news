@@ -1,0 +1,37 @@
+:root {
+  --cor-primaria: rgb(29, 28, 121);
+  --cor-secundaria: rgb(117, 110, 110);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: block;
+  background-color: var(--cor-primaria);
+}
+
+.flex-container,
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+nav {
+  padding: 1rem;
+  
+}
+
+ul li {
+  display: inline;
+  text-align: right;
+}
+
+input {
+  height: 20px;
+  width: 125px;
+}
